@@ -62,7 +62,7 @@ You can also use the following env variables to set up aws auth:
 
 Before running encrypt / decrypt it parses the input text using regexp (_can be specified using `--regexp`_), then
 runs the command on it and replaces it back to the original text.
-Command basically calls aws golang sdk with and that is it.
+Command basically calls aws golang sdk and that is it.
 
 Yes, that simple.
 
